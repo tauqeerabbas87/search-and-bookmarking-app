@@ -14,7 +14,7 @@ interface Item {
 
 // Generate columns for table
 export const generateColumns = (saveBookMarkRow:any) => {
-    debugger;
+
     return [
         { field: 'id', headerName: 'id', width: 200 },
         { field: 'name', headerName: 'Repository Name', width: 200 },
